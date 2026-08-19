@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Exam Registration</title>
+</head>
+<body>
+
+    <h1>Online Exam Registration</h1>
+
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="course">Course:</label>
+        <select id="course" name="course">
+            <option value="btech">B.Tech</option>
+            <option value="bsc">B.Sc</option>
+            <option value="bca">BCA</option>
+            <option value="mba">MBA</option>
+        </select><br><br>
+
+        <label for="exam">Exam:</label>
+        <select id="exam" name="exam">
+            <option value="semester">Semester Exam</option>
+            <option value="entrance">Entrance Exam</option>
+            <option value="competitive">Competitive Exam</option>
+        </select><br><br>
+
+        <label for="center">Exam Centre:</label>
+        <input type="text" id="center" name="center" required><br><br>
+
+        <label for="photo">Upload Photo:</label>
+        <input type="file" id="photo" name="photo" accept="image/*"><br><br>
+
+        <input type="checkbox" id="agree" required>
+        <label for="agree">I confirm that the above information is correct.</label><br><br>
+
+        <button type="submit">Register</button>
+        <button type="reset">Clear</button>
+    </form>
+
+</body>
+</html>
